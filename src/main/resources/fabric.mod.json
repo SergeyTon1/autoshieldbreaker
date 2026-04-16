@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "autoshieldbreaker",
+  "version": "${version}",
+  "name": "Auto Shield Breaker",
+  "description": "Автоматически выбирает топор и ломает щит",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.autoshieldbreaker.AutoShieldBreakerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "fabric-api": "*"
+  }
+}
